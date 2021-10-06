@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/FactoryTranslator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung1/control/GermanTranslatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung1/view/ClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codesSE2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codesSE2021.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="Junits hinzugefuegt&#10;Remote zum FactoryTranslator umbenannt&#10;FactoryTranslator uebermittelt nun die funktionen von GermanTranslator fuer den Client.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/GermanTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/GermanTranslator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/Remote.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +54,14 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.GermanTranslatorTest">
+    <configuration name="All in codesSE2021" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codesSE2021" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientTest" type="JUnit" factoryName="JUnit">
       <module name="codesSE2021" />
       <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung1.view" />
@@ -94,7 +85,13 @@
     <list>
       <item itemvalue="JUnit.ClientTest" />
       <item itemvalue="JUnit.GermanTranslatorTest" />
+      <item itemvalue="JUnit.All in codesSE2021" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in codesSE2021" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -105,6 +102,21 @@
       <option name="presentableId" value="Default" />
       <updated>1633518105700</updated>
     </task>
+    <task id="LOCAL-00001" summary="Junits hinzugefuegt&#10;Remote zum FactoryTranslator umbenannt&#10;FactoryTranslator uebermittelt nun die funktionen von GermanTranslator fuer den Client.">
+      <created>1633520289747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633520289747</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Junits hinzugefuegt&#10;Remote zum FactoryTranslator umbenannt&#10;FactoryTranslator uebermittelt nun die funktionen von GermanTranslator fuer den Client.">
+      <created>1633520329153</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633520329153</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,8 +129,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Junits hinzugefuegt&#10;Remote zum FactoryTranslator umbenannt&#10;FactoryTranslator uebermittelt nun die funktionen von GermanTranslator fuer den Client." />
+    <option name="LAST_COMMIT_MESSAGE" value="Junits hinzugefuegt&#10;Remote zum FactoryTranslator umbenannt&#10;FactoryTranslator uebermittelt nun die funktionen von GermanTranslator fuer den Client." />
   </component>
 </project>
