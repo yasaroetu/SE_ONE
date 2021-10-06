@@ -12,8 +12,7 @@ public class Client {
 		//
 		// Strenge Implementierung gegen das Interface Translator gewuenscht!
 		System.out.println("Das Ergebnis der Berechnung: " +
-				Remote.translateNumber(aNumber)  );
-
+				FactoryTranslator.translateNumber(aNumber)  );
 	}
 }
 
