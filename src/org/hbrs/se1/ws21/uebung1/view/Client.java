@@ -11,9 +11,8 @@ public class Client {
 		// aufgerufen werden.
 		//
 		// Strenge Implementierung gegen das Interface Translator gewuenscht!
-
 		System.out.println("Das Ergebnis der Berechnung: " +
-				"[das Ergebnis an dieser Stelle]"  );
+				Remote.getTranslator().translateNumber(aNumber)  );
 
 	}
 }
