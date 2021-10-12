@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="-FactoryTranslator zu TranslatorFactory umbenannt.&#10;-translateNumber(TanslatorFactory) unbenannt zu translateNumber_German(TanslatorFactory)">
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/GermanTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/GermanTranslator.java" afterDir="false" />
+    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- version() (GermanTranslator) Kommentar hinzugefuegt.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/Translator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/Translator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/TranslatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/TranslatorFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634030629538</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- version() (GermanTranslator) Kommentar hinzugefuegt.">
+      <created>1634030732200</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1634030732200</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +168,7 @@
     <MESSAGE value="JUnits outputs commit" />
     <MESSAGE value="- Version von GermanTranslator ist nun mit einer getter erreichbar.&#10;- Tests wurden erweitert und der Äquivalenzklassen angepasst." />
     <MESSAGE value="-FactoryTranslator zu TranslatorFactory umbenannt.&#10;-translateNumber(TanslatorFactory) unbenannt zu translateNumber_German(TanslatorFactory)" />
-    <option name="LAST_COMMIT_MESSAGE" value="-FactoryTranslator zu TranslatorFactory umbenannt.&#10;-translateNumber(TanslatorFactory) unbenannt zu translateNumber_German(TanslatorFactory)" />
+    <MESSAGE value="- version() (GermanTranslator) Kommentar hinzugefuegt." />
+    <option name="LAST_COMMIT_MESSAGE" value="- version() (GermanTranslator) Kommentar hinzugefuegt." />
   </component>
 </project>
