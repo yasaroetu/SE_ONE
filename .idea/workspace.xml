@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="JUnits outputs commit">
+    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Version von GermanTranslator ist nun mit einer getter erreichbar.&#10;- Tests wurden erweitert und der Äquivalenzklassen angepasst.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung1/control/GermanTranslator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung1/control/GermanTranslator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung1/view/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung1/view/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung1/view/FactoryTranslator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung1/view/FactoryTranslator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung1/view/FactoryTranslator.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung1/control/GermanTranslatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung1/control/GermanTranslatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung1/view/ClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung1/view/ClientTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/GermanTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/GermanTranslator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/FactoryTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/FactoryTranslator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung1/control/GermanTranslatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung1/control/GermanTranslatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung1/view/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung1/view/ClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/FactoryTranslator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
       <recent name="org.hbrs.se1.ws21.uebung1.view" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GermanTranslatorTest">
+  <component name="RunManager" selected="JUnit.All in codesSE2021">
     <configuration name="All in codesSE2021" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2021" />
       <option name="PACKAGE_NAME" value="" />
@@ -132,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633520715885</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- Version von GermanTranslator ist nun mit einer getter erreichbar.&#10;- Tests wurden erweitert und der Äquivalenzklassen angepasst.">
+      <created>1634029644309</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634029644309</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +155,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Junits hinzugefuegt&#10;Remote zum FactoryTranslator umbenannt&#10;FactoryTranslator uebermittelt nun die funktionen von GermanTranslator fuer den Client." />
     <MESSAGE value="JUnits outputs commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="JUnits outputs commit" />
+    <MESSAGE value="- Version von GermanTranslator ist nun mit einer getter erreichbar.&#10;- Tests wurden erweitert und der Äquivalenzklassen angepasst." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Version von GermanTranslator ist nun mit einer getter erreichbar.&#10;- Tests wurden erweitert und der Äquivalenzklassen angepasst." />
   </component>
 </project>
