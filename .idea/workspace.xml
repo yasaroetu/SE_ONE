@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- version() (GermanTranslator) Kommentar hinzugefuegt.">
+    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- translateNumber_German wurde zu createGermanTranslator unbennant.&#10;- createGermanTranslator (TranslatorFactory) uebergibt nun einen Translator.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/Translator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/Translator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/TranslatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/TranslatorFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634030732200</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- translateNumber_German wurde zu createGermanTranslator unbennant.&#10;- createGermanTranslator (TranslatorFactory) uebergibt nun einen Translator.">
+      <created>1634047459864</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634047459864</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- translateNumber_German wurde zu createGermanTranslator unbennant.&#10;- createGermanTranslator (TranslatorFactory) uebergibt nun einen Translator.">
+      <created>1634047477942</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634047477942</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +180,7 @@
     <MESSAGE value="- Version von GermanTranslator ist nun mit einer getter erreichbar.&#10;- Tests wurden erweitert und der Äquivalenzklassen angepasst." />
     <MESSAGE value="-FactoryTranslator zu TranslatorFactory umbenannt.&#10;-translateNumber(TanslatorFactory) unbenannt zu translateNumber_German(TanslatorFactory)" />
     <MESSAGE value="- version() (GermanTranslator) Kommentar hinzugefuegt." />
-    <option name="LAST_COMMIT_MESSAGE" value="- version() (GermanTranslator) Kommentar hinzugefuegt." />
+    <MESSAGE value="- translateNumber_German wurde zu createGermanTranslator unbennant.&#10;- createGermanTranslator (TranslatorFactory) uebergibt nun einen Translator." />
+    <option name="LAST_COMMIT_MESSAGE" value="- translateNumber_German wurde zu createGermanTranslator unbennant.&#10;- createGermanTranslator (TranslatorFactory) uebergibt nun einen Translator." />
   </component>
 </project>
