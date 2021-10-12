@@ -14,15 +14,18 @@ class GermanTranslatorTest {
     }
     @Test
     void translateNumber() {
+
+        //pos_ÄK
         assertEquals(g.translateNumber(1),"eins");
-        assertEquals(g.translateNumber(2),"zwei");
-        assertEquals(g.translateNumber(3),"drei");
-        assertEquals(g.translateNumber(4),"vier");
         assertEquals(g.translateNumber(5),"fuenf");
-        assertEquals(g.translateNumber(6),"sechs");
-        assertEquals(g.translateNumber(7),"sieben");
-        assertEquals(g.translateNumber(8),"acht");
-        assertEquals(g.translateNumber(9),"neun");
         assertEquals(g.translateNumber(10),"zehn");
+
+        //neg_ÄK
+        assertEquals(g.translateNumber(-5),"Uebersetzung der Zahl " + -5 + " nicht moeglich " + g.version());
+        assertEquals(g.translateNumber(55),"Uebersetzung der Zahl " + 55 + " nicht moeglich " + g.version());
+        assertNotEquals(g.translateNumber(-5),"minusfuenf");
+        assertNotEquals(g.translateNumber(55),"fuenfundfuenfzig");
+
+
     }
 }

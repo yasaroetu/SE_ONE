@@ -12,7 +12,11 @@ class ClientTest {
         c = new Client();
     }
     @Test
-    void display() {
-        c.display(11);
+    void displayTest() {
+        c.display(1);
+        c.display(5);
+        c.display(10);
+        c.display(-5);
+        c.display(55);
     }
 }

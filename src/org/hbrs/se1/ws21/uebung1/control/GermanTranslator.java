@@ -33,5 +33,5 @@ public class GermanTranslator implements Translator {
 	public void setDate( String date ) {
 		this.date = date;
 	}
-
+	public double version() { return this.version; }
 }

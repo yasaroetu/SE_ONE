@@ -15,7 +15,3 @@ public class Client {
 				FactoryTranslator.translateNumber(aNumber)  );
 	}
 }
-
-
-
-
