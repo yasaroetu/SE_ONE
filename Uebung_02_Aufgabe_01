@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-17T14:44:52.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="HWi3GVPHEbzVvrKkHAgt" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-17T14:57:36.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="S_yfPzew_ZpIxMXk2q0u" version="15.5.4" type="github">
   <diagram id="2653YML8Jok9Hbx5UWGl" name="Page-1">
     <mxGraphModel dx="826" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,8 +92,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="710" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="620" y="705" />
-              <mxPoint x="620" y="965" />
+              <mxPoint x="630" y="706" />
+              <mxPoint x="630" y="906" />
+              <mxPoint x="500" y="906" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -127,20 +128,94 @@
         <mxCell id="YLmMmB5MgCTmWYURqvU--52" value="Ueberarbeitung des Fachkonzeptes durch den SA ohne erneutes Review" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="360" y="810" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YLmMmB5MgCTmWYURqvU--64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YLmMmB5MgCTmWYURqvU--53" target="YLmMmB5MgCTmWYURqvU--5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="120" y="705" />
-              <mxPoint x="120" y="290" />
-              <mxPoint x="285" y="290" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YLmMmB5MgCTmWYURqvU--53" target="YLmMmB5MgCTmWYURqvU--68">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YLmMmB5MgCTmWYURqvU--53" value="Ueberarbeitung des Fachkonzeptes durch den SA" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="140" y="680" width="230" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YLmMmB5MgCTmWYURqvU--60" target="YLmMmB5MgCTmWYURqvU--65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YLmMmB5MgCTmWYURqvU--60" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="450" y="940" width="50" height="50" as="geometry" />
+          <mxGeometry x="450" y="880" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YLmMmB5MgCTmWYURqvU--65" target="YLmMmB5MgCTmWYURqvU--76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--65" value="Abnahme ohne Vorbehalt durch das PMO vorbereitet" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="950" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YLmMmB5MgCTmWYURqvU--68" target="YLmMmB5MgCTmWYURqvU--5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="65" y="290" />
+              <mxPoint x="285" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--72" value="Zeit vorhanden" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YLmMmB5MgCTmWYURqvU--70">
+          <mxGeometry x="-0.2979" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YLmMmB5MgCTmWYURqvU--68" target="YLmMmB5MgCTmWYURqvU--73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="65" y="770" />
+              <mxPoint x="155" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--75" value="Zeitproblem&lt;br&gt;vorhanden" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YLmMmB5MgCTmWYURqvU--74">
+          <mxGeometry x="-0.2028" relative="1" as="geometry">
+            <mxPoint x="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--68" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YLmMmB5MgCTmWYURqvU--73" target="YLmMmB5MgCTmWYURqvU--76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--73" value="Abnahme ohne Verbehalt durch das PMO vorbereitet (Fehler Dokumentiert)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="810" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YLmMmB5MgCTmWYURqvU--76" target="YLmMmB5MgCTmWYURqvU--79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--76" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="130" y="950" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YLmMmB5MgCTmWYURqvU--79" target="YLmMmB5MgCTmWYURqvU--81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YLmMmB5MgCTmWYURqvU--79" target="YLmMmB5MgCTmWYURqvU--82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--79" value="PMO legt das Letter of Acceptance (inkl. Abnahmeprotokoll) mit Unterschrift an" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1060" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YLmMmB5MgCTmWYURqvU--81" target="YLmMmB5MgCTmWYURqvU--88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--81" value="Unterschift des Kunden einholen" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1050" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YLmMmB5MgCTmWYURqvU--82" target="YLmMmB5MgCTmWYURqvU--88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--82" value="Unterschrift des SA einholen" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1090" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--87" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="735" y="950" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YLmMmB5MgCTmWYURqvU--88" target="YLmMmB5MgCTmWYURqvU--87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLmMmB5MgCTmWYURqvU--88" value="Projekt Entwicklung Phase" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1060" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
