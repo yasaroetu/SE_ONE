@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- translateNumber_German wurde zu createGermanTranslator unbennant.&#10;- createGermanTranslator (TranslatorFactory) uebergibt nun einen Translator.">
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Member.java" afterDir="false" />
+    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Uebung02 wurde gepullt.">
+      <change afterPath="$PROJECT_DIR$/TemplateTestCase v1.5 1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateTestCase v1.5 2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/ContainerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Mitarbeiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,11 +56,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.hbrs.se1.ws21.uebung2" />
       <recent name="org.hbrs.se1.ws21.uebung1.control" />
       <recent name="org.hbrs.se1.ws21.uebung1.view" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in codesSE2021">
+  <component name="RunManager" selected="JUnit.ContainerTest">
     <configuration name="All in codesSE2021" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2021" />
       <option name="PACKAGE_NAME" value="" />
@@ -66,6 +74,16 @@
       <module name="codesSE2021" />
       <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung1.view" />
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung1.view.ClientTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainerTest" type="JUnit" factoryName="JUnit">
+      <module name="codesSE2021" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung2" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung2.ContainerTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -85,6 +103,7 @@
     <list>
       <item itemvalue="JUnit.ClientTest" />
       <item itemvalue="JUnit.GermanTranslatorTest" />
+      <item itemvalue="JUnit.ContainerTest" />
       <item itemvalue="JUnit.All in codesSE2021" />
     </list>
     <recent_temporary>
@@ -158,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634047477942</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="- Uebung02 wurde gepullt.">
+      <created>1634061795330</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634061795330</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +207,7 @@
     <MESSAGE value="-FactoryTranslator zu TranslatorFactory umbenannt.&#10;-translateNumber(TanslatorFactory) unbenannt zu translateNumber_German(TanslatorFactory)" />
     <MESSAGE value="- version() (GermanTranslator) Kommentar hinzugefuegt." />
     <MESSAGE value="- translateNumber_German wurde zu createGermanTranslator unbennant.&#10;- createGermanTranslator (TranslatorFactory) uebergibt nun einen Translator." />
-    <option name="LAST_COMMIT_MESSAGE" value="- translateNumber_German wurde zu createGermanTranslator unbennant.&#10;- createGermanTranslator (TranslatorFactory) uebergibt nun einen Translator." />
+    <MESSAGE value="- Uebung02 wurde gepullt." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Uebung02 wurde gepullt." />
   </component>
 </project>
