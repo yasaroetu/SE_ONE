@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Uebung02 wurde gepullt.">
-      <change afterPath="$PROJECT_DIR$/TemplateTestCase v1.5 1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TemplateTestCase v1.5 2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/ContainerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Mitarbeiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,7 @@
       <recent name="org.hbrs.se1.ws21.uebung1.view" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContainerTest">
+  <component name="RunManager" selected="JUnit.All in codesSE2021">
     <configuration name="All in codesSE2021" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2021" />
       <option name="PACKAGE_NAME" value="" />

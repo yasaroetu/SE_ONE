@@ -1,7 +1,6 @@
 package org.hbrs.se1.ws21.uebung2;
 
 import java.util.ArrayList;
-import java.util.stream.IntStream;
 
 public class Container {
     ArrayList<Member> m = new ArrayList<Member>();
@@ -10,7 +9,7 @@ public class Container {
         if(this.m.stream().anyMatch(x -> x.getID() == member.getID()) || member.getID() == null)
             throw new ContainerException(member.getID());
         else
-            m.add(member);
+            this.m.add(member);
     }
     public String deleteMember(int id) {
         Member r = null;

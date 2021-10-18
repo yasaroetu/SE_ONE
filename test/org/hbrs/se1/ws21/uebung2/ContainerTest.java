@@ -15,6 +15,7 @@ class ContainerTest {
 
     @Test
     void addMember() {
+
         // pos_ÄK1
         assertDoesNotThrow(() -> c.addMember(new Mitarbeiter(1)));
         assertDoesNotThrow(() -> c.addMember(new Mitarbeiter(2)));
