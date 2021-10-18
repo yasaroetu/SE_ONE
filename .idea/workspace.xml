@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Uebung02 wurde gepullt.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Container class wurde hinzugefuegt.&#10;- ContainerExpcetion hinzugefuegt.&#10;- Container Funktionen wurde geschrieben.&#10;- Mitarbeiter welcher Member implementiert wurde hinzugefuegt.&#10;- Container Test class angelegt.&#10;- Container Funktionen getestet (erfolgreich)." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
