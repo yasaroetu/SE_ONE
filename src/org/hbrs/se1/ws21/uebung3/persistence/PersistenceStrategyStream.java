@@ -1,13 +1,12 @@
 package org.hbrs.se1.ws21.uebung3.persistence;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import java.awt.print.PrinterException;
+import java.io.*;
 
 import java.util.List;
 
 public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Member> {
+
 
     // URL of file, in which the objects are stored
     private String location = "objects.ser";
@@ -18,6 +17,7 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
         this.location = location;
     }
 
+
     @Override
     /**
      * Method for opening the connection to a stream (here: Input- and Output-Stream)
@@ -25,7 +25,18 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
      * and save
      */
     public void openConnection() throws PersistenceException {
+        /*try {
+            if(this.iStream != null || this.oStream != null)
+                throw new PersistenceException(PersistenceException.ExceptionType.IOException,"Connection is still open!");
+            new FileOutputStream(this.location).
+            if(!(new File(this.location).exists()))
+                new File(this.location).createNewFile();
+            this.oStream = new FileOutputStream(this.location);
+            this.iStream = new FileInputStream(this.location);
 
+        } catch(Exception ex) {
+            throw new PersistenceException(PersistenceException.ExceptionType.IOException,ex.getMessage());
+        }*/
     }
 
     @Override
@@ -33,7 +44,18 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
      * Method for closing the connections to a stream
      */
     public void closeConnection() throws PersistenceException {
+        /*try {
+            if(this.iStream == null || this.oStream == null)
+                throw new PersistenceException(PersistenceException.ExceptionType.IOException,"There is no stream to close!");
 
+            this.iStream.close();
+            this.oStream.close();
+            this.iStream = null;
+            this.oStream = null;
+
+        } catch(Exception ex) {
+            throw new PersistenceException(PersistenceException.ExceptionType.IOException,ex.getMessage());
+        }*/
     }
 
     @Override
@@ -41,7 +63,15 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
      * Method for saving a list of Member-objects to a disk (HDD)
      */
     public void save(List<Member> member) throws PersistenceException  {
-
+        try {
+            FileOutputStream oStream = new FileOutputStream(this.location);
+            ObjectOutputStream oOStream = new ObjectOutputStream(oStream);
+            oOStream.writeObject(member);
+            oOStream.close();
+            oStream.close();
+        } catch(Exception ex) {
+            throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable,ex.getMessage());
+        }
     }
 
     @Override
@@ -68,6 +98,18 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
         // return newListe
 
         // and finally close the streams (guess where this could be...?)
-        return null;
+        List<Member> member = null;
+        try {
+            FileInputStream iStream = new FileInputStream(this.location);
+            ObjectInputStream iOStream = new ObjectInputStream(iStream);
+            member = (List<Member>)iOStream.readObject();
+            iOStream.close();
+            iStream.close();
+
+        } catch(Exception ex) {
+            throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable,ex.getMessage());
+        }
+
+        return member;
     }
 }

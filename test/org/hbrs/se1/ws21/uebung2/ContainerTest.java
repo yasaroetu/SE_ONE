@@ -7,33 +7,51 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ContainerTest {
 
-    Container c;
+    Container cContainer;
+    Container dContainer;
     @BeforeEach
     void setup(){
-        c = new Container();
+        cContainer = new Container();
+        dContainer = new Container();
     }
 
     @Test
-    void addMember() {
+    void addAndDeleteMember() {
 
         // pos_ÄK1
-        assertDoesNotThrow(() -> c.addMember(new Mitarbeiter(1)));
-        assertDoesNotThrow(() -> c.addMember(new Mitarbeiter(2)));
+        assertDoesNotThrow(() -> cContainer.addMember(new MemberKonkret(1)));
+        assertDoesNotThrow(() -> dContainer.addMember(new MemberKonkret(2)));
 
         // neg_ÄK1
-        assertThrows(ContainerException.class,() -> c.addMember(new Mitarbeiter(1)));
-        assertThrows(ContainerException.class,() -> c.addMember(new Mitarbeiter(2)));
+        assertThrows(ContainerException.class,() -> dContainer.addMember(new MemberKonkret(1)));
+        assertThrows(ContainerException.class,() -> cContainer.addMember(new MemberKonkret(2)));
 
         //neg_ÄK2
-        assertThrows(ContainerException.class,() -> c.addMember(new Mitarbeiter(null)));
+        assertThrows(ContainerException.class,() -> dContainer.addMember(new MemberKonkret(null)));
+
+        //pos_ÄK1
+        assertEquals(dContainer.deleteMember(1),"Member mit der ID: 1 entfernt.");
+        assertEquals(cContainer.deleteMember(2),"Member mit der ID: 2 entfernt.");
+
+        //neg_ÄK1
+        assertNotEquals(dContainer.deleteMember(1),"Member mit der ID: 1 entfernt.");
+        assertNotEquals(cContainer.deleteMember(2),"Member mit der ID: 2 entfernt.");
     }
 
     @Test
-    void deleteMember() {
+    void storeAndLoad() {
+        assertDoesNotThrow(() -> cContainer.addMember(new MemberKonkret(1)));
+        assertDoesNotThrow(() -> dContainer.addMember(new MemberKonkret(2)));
 
-        //pos_ÄK1
-        assertEquals(c.deleteMember(1),"Kein Member mit der ID: 1 gefunden.");
-        assertEquals(c.deleteMember(2),"Kein Member mit der ID: 2 gefunden.");
+        assertDoesNotThrow(() -> cContainer.store());
+
+        assertEquals(dContainer.deleteMember(1),"Member mit der ID: 1 entfernt.");
+        assertEquals(cContainer.deleteMember(2),"Member mit der ID: 2 entfernt.");
+
+        assertDoesNotThrow(() -> cContainer.load());
+
+        assertEquals(dContainer.deleteMember(1),"Member mit der ID: 1 entfernt.");
+        assertEquals(cContainer.deleteMember(2),"Member mit der ID: 2 entfernt.");
 
     }
 }
