@@ -44,6 +44,10 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
      * Method for closing the connections to a stream
      */
     public void closeConnection() throws PersistenceException {
+        /**
+         * Funktioniert nicht da 2 Tasks nicht auf eine Datei gleichzeitig zugreifen kann.
+         * Der Inhalt der Datei wird bei der Instanziierung komplett geloescht
+         */
         /*try {
             if(this.iStream == null || this.oStream == null)
                 throw new PersistenceException(PersistenceException.ExceptionType.IOException,"There is no stream to close!");
@@ -63,9 +67,15 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
      * Method for saving a list of Member-objects to a disk (HDD)
      */
     public void save(List<Member> member) throws PersistenceException  {
+        if(member == null)
+            throw new PersistenceException(PersistenceException.ExceptionType.ImplementationNotAvailable,"Null value not Supported!");
         try {
+            if(!(new File(this.location).exists()))
+                new File(this.location).createNewFile();
             FileOutputStream oStream = new FileOutputStream(this.location);
             ObjectOutputStream oOStream = new ObjectOutputStream(oStream);
+            oOStream.flush();
+            oStream.flush();
             oOStream.writeObject(member);
             oOStream.close();
             oStream.close();
@@ -100,6 +110,8 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
         // and finally close the streams (guess where this could be...?)
         List<Member> member = null;
         try {
+            if(!(new File(this.location).exists()))
+                new File(this.location).createNewFile();
             FileInputStream iStream = new FileInputStream(this.location);
             ObjectInputStream iOStream = new ObjectInputStream(iStream);
             member = (List<Member>)iOStream.readObject();

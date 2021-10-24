@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class GermanTranslatorTest {
 
-    GermanTranslator g;
+    private GermanTranslator g;
     @BeforeEach
     void setup() {
         g = new GermanTranslator();

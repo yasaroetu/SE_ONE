@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Update UML Uebung03">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Pull von Alda Uebung03 und Loesungen bis Uebung02&#10;- Uebung03 Aufgabe 2 bis zu CR3 gekommen.">
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/ContainerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/MemberKonkret.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/MemberView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/files/ContainerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyMongoDBTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStreamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects.ser" beforeDir="false" afterPath="$PROJECT_DIR$/objects.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung2/Container.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung2/Container.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung2/Mitarbeiter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung2/MemberKonkret.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung2/MemberKonkret.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung1/control/GermanTranslatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung1/control/GermanTranslatorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung2/ContainerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung2/ContainerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Mitarbeiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/MemberKonkret.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/PersistenceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/PersistenceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/MemberKonkret.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/MemberKonkret.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung1/control/GermanTranslatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung1/control/GermanTranslatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung1/view/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung1/view/ClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -60,12 +72,23 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.hbrs.se1.ws21.uebung3.persistence" />
       <recent name="org.hbrs.se1.ws21.uebung2" />
       <recent name="org.hbrs.se1.ws21.uebung1.control" />
       <recent name="org.hbrs.se1.ws21.uebung1.view" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.hbrs.se1.ws21.uebung2" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContainerTest">
+  <component name="RunManager" selected="JUnit.All in codesSE2021">
+    <configuration name="Client_Container" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.files.Client" />
+      <module name="codesSE2021" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in codesSE2021" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2021" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,12 +107,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerTest" type="JUnit" factoryName="JUnit">
+    <configuration name="ContainerTest_2" type="JUnit" factoryName="JUnit">
       <module name="codesSE2021" />
       <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung2" />
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung2.ContainerTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainerTest_3" type="JUnit" factoryName="JUnit">
+      <module name="codesSE2021" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung3.files" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.files.ContainerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainerTest.load" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codesSE2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung3.files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung3.files" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.files.ContainerTest" />
+      <option name="METHOD_NAME" value="load" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,15 +153,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersistenceStrategyMongoDBTest" type="JUnit" factoryName="JUnit">
+      <module name="codesSE2021" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung3.persistence" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.PersistenceStrategyMongoDBTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersistenceStrategyStreamTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codesSE2021" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:org.hbrs.se1.ws21.uebung3.persistence.PersistenceStrategyStreamTest]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersistenceStrategyStreamTest" type="JUnit" factoryName="JUnit">
+      <module name="codesSE2021" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung3.persistence" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.PersistenceStrategyStreamTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersistenceStrategyStreamTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codesSE2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung3.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung3.persistence" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.PersistenceStrategyStreamTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.Client_Container" />
+      <item itemvalue="JUnit.PersistenceStrategyMongoDBTest" />
       <item itemvalue="JUnit.ClientTest" />
       <item itemvalue="JUnit.GermanTranslatorTest" />
-      <item itemvalue="JUnit.ContainerTest" />
+      <item itemvalue="JUnit.ContainerTest_2" />
+      <item itemvalue="JUnit.ContainerTest_3" />
+      <item itemvalue="JUnit.PersistenceStrategyStreamTest" />
       <item itemvalue="JUnit.All in codesSE2021" />
+      <item itemvalue="JUnit.ContainerTest.load" />
+      <item itemvalue="JUnit.PersistenceStrategyStreamTest.save" />
+      <item itemvalue="JUnit.PersistenceStrategyStreamTest (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in codesSE2021" />
+        <item itemvalue="JUnit.PersistenceStrategyStreamTest (1)" />
+        <item itemvalue="JUnit.PersistenceStrategyStreamTest.save" />
+        <item itemvalue="JUnit.ContainerTest.load" />
       </list>
     </recent_temporary>
   </component>
