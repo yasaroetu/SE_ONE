@@ -74,8 +74,6 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
                 new File(this.location).createNewFile();
             FileOutputStream oStream = new FileOutputStream(this.location);
             ObjectOutputStream oOStream = new ObjectOutputStream(oStream);
-            oOStream.flush();
-            oStream.flush();
             oOStream.writeObject(member);
             oOStream.close();
             oStream.close();

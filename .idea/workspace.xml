@@ -1,30 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Pull von Alda Uebung03 und Loesungen bis Uebung02&#10;- Uebung03 Aufgabe 2 bis zu CR3 gekommen.">
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/ContainerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/MemberKonkret.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/MemberView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/files/ContainerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyMongoDBTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStreamTest.java" afterDir="false" />
+    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Uebung02 und Uebung03 gesplitted.&#10;- Uebung03 JUnits ueberarbeitet.&#10;- Alles ist nun in Ihrem vorhergesehenen Ordner.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects.ser" beforeDir="false" afterPath="$PROJECT_DIR$/objects.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung2/Container.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung2/Container.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung2/MemberKonkret.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung2/MemberKonkret.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung1/control/GermanTranslatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung1/control/GermanTranslatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung2/ContainerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung2/ContainerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/MemberKonkret.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/MemberKonkret.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung1/control/GermanTranslatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung1/control/GermanTranslatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung1/view/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung1/view/ClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/files/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/files/ContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +62,7 @@
       <recent name="org.hbrs.se1.ws21.uebung2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in codesSE2021">
+  <component name="RunManager" selected="Application.Client_Container">
     <configuration name="Client_Container" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.files.Client" />
       <module name="codesSE2021" />
@@ -123,6 +104,22 @@
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.files.ContainerTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainerTest.addAndDeleteMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codesSE2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung3.files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung3.files" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.files.ContainerTest" />
+      <option name="METHOD_NAME" value="addAndDeleteMember" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,10 +209,12 @@
       <item itemvalue="JUnit.ContainerTest.load" />
       <item itemvalue="JUnit.PersistenceStrategyStreamTest.save" />
       <item itemvalue="JUnit.PersistenceStrategyStreamTest (1)" />
+      <item itemvalue="JUnit.ContainerTest.addAndDeleteMember" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in codesSE2021" />
+        <item itemvalue="JUnit.ContainerTest.addAndDeleteMember" />
         <item itemvalue="JUnit.PersistenceStrategyStreamTest (1)" />
         <item itemvalue="JUnit.PersistenceStrategyStreamTest.save" />
         <item itemvalue="JUnit.ContainerTest.load" />
@@ -294,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634061795330</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="- Uebung02 und Uebung03 gesplitted.&#10;- Uebung03 JUnits ueberarbeitet.&#10;- Alles ist nun in Ihrem vorhergesehenen Ordner.">
+      <created>1635091073412</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1635091073412</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,6 +324,7 @@
     <MESSAGE value="- version() (GermanTranslator) Kommentar hinzugefuegt." />
     <MESSAGE value="- translateNumber_German wurde zu createGermanTranslator unbennant.&#10;- createGermanTranslator (TranslatorFactory) uebergibt nun einen Translator." />
     <MESSAGE value="- Uebung02 wurde gepullt." />
-    <option name="LAST_COMMIT_MESSAGE" value="- Uebung02 wurde gepullt." />
+    <MESSAGE value="- Uebung02 und Uebung03 gesplitted.&#10;- Uebung03 JUnits ueberarbeitet.&#10;- Alles ist nun in Ihrem vorhergesehenen Ordner." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Uebung02 und Uebung03 gesplitted.&#10;- Uebung03 JUnits ueberarbeitet.&#10;- Alles ist nun in Ihrem vorhergesehenen Ordner." />
   </component>
 </project>

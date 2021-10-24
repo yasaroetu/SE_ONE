@@ -24,12 +24,11 @@ class PersistenceStrategyStreamTest {
     @Test
     void setLocation() {
         PersistenceStrategyStream pss = new PersistenceStrategyStream();
-        pss.setLocation("\\asdasd\\DiesDas");
 
-        if(cContainer.size() == 0) {
-            assertDoesNotThrow(() -> cContainer.addMember(new MemberKonkret(1)));
-            assertDoesNotThrow(() -> dContainer.addMember(new MemberKonkret(2)));
-        }
+        pss.setLocation("\\asdasd\\DiesDas");
+        assertThrows(PersistenceException.class,() -> pss.save(cContainer.getCurrentList()));
+
+        pss.setLocation(null);
         assertThrows(PersistenceException.class,() -> pss.save(cContainer.getCurrentList()));
 
         //pos_ÄK1
@@ -41,10 +40,8 @@ class PersistenceStrategyStreamTest {
     void save() {
         assertThrows(PersistenceException.class,() -> new PersistenceStrategyStream().save(null));
 
-        if(cContainer.size() == 0) {
-            assertDoesNotThrow(() -> cContainer.addMember(new MemberKonkret(1)));
-            assertDoesNotThrow(() -> dContainer.addMember(new MemberKonkret(2)));
-        }
+        assertDoesNotThrow(() -> cContainer.addMember(new MemberKonkret(1)));
+        assertDoesNotThrow(() -> dContainer.addMember(new MemberKonkret(2)));
 
         assertDoesNotThrow(() -> new PersistenceStrategyStream().save(cContainer.getCurrentList()));
 
@@ -55,10 +52,8 @@ class PersistenceStrategyStreamTest {
 
     @Test
     void load() {
-        if(cContainer.size() == 0) {
-            assertDoesNotThrow(() -> cContainer.addMember(new MemberKonkret(1)));
-            assertDoesNotThrow(() -> dContainer.addMember(new MemberKonkret(2)));
-        }
+        assertDoesNotThrow(() -> cContainer.addMember(new MemberKonkret(1)));
+        assertDoesNotThrow(() -> dContainer.addMember(new MemberKonkret(2)));
         assertDoesNotThrow(() -> new PersistenceStrategyStream().save(cContainer.getCurrentList()));
 
         assertDoesNotThrow(() -> new PersistenceStrategyStream().load());

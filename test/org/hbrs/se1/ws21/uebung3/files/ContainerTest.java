@@ -17,11 +17,9 @@ class ContainerTest {
 
     @Test
     void addAndDeleteMember() {
-        if(cContainer.size() == 0) {
-            // pos_ÄK1
-            assertDoesNotThrow(() -> cContainer.addMember(new MemberKonkret(1)));
-            assertDoesNotThrow(() -> dContainer.addMember(new MemberKonkret(2)));
-        }
+        // pos_ÄK1
+        assertDoesNotThrow(() -> cContainer.addMember(new MemberKonkret(1)));
+        assertDoesNotThrow(() -> dContainer.addMember(new MemberKonkret(2)));
 
         // neg_ÄK1
         assertThrows(ContainerException.class,() -> dContainer.addMember(new MemberKonkret(1)));
@@ -35,17 +33,15 @@ class ContainerTest {
         assertEquals(cContainer.deleteMember(2),"Member mit der ID: 2 entfernt.");
 
         //neg_ÄK1
-        assertNotEquals(dContainer.deleteMember(1),"Member mit der ID: 1 entfernt.");
-        assertNotEquals(cContainer.deleteMember(2),"Member mit der ID: 2 entfernt.");
+        assertNotEquals(cContainer.deleteMember(1),"Member mit der ID: 1 entfernt.");
+        assertNotEquals(dContainer.deleteMember(2),"Member mit der ID: 2 entfernt.");
     }
 
     @Test
     void store() {
-        if(cContainer.size() == 0) {
-            // pos_ÄK1
-            assertDoesNotThrow(() -> cContainer.addMember(new MemberKonkret(1)));
-            assertDoesNotThrow(() -> dContainer.addMember(new MemberKonkret(2)));
-        }
+        // pos_ÄK1
+        assertDoesNotThrow(() -> cContainer.addMember(new MemberKonkret(1)));
+        assertDoesNotThrow(() -> dContainer.addMember(new MemberKonkret(2)));
 
         assertDoesNotThrow(() -> cContainer.store());
 
@@ -55,11 +51,9 @@ class ContainerTest {
     }
     @Test
     void load() {
-        if(cContainer.size() == 0) {
-            // pos_ÄK1
-            assertDoesNotThrow(() -> cContainer.addMember(new MemberKonkret(1)));
-            assertDoesNotThrow(() -> dContainer.addMember(new MemberKonkret(2)));
-        }
+        // pos_ÄK1
+        assertDoesNotThrow(() -> cContainer.addMember(new MemberKonkret(1)));
+        assertDoesNotThrow(() -> dContainer.addMember(new MemberKonkret(2)));
 
         assertDoesNotThrow(() -> cContainer.store());
 
