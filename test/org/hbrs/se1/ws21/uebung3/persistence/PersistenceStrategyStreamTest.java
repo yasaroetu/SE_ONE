@@ -18,8 +18,8 @@ class PersistenceStrategyStreamTest {
 
     @BeforeEach
     void setup() {
-        cContainer = new Container();
-        dContainer = new Container();
+        cContainer = Container.getInstance();
+        dContainer = Container.getInstance();
     }
     @Test
     void setLocation() {

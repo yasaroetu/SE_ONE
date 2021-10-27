@@ -11,8 +11,8 @@ class ContainerTest {
     private Container dContainer;
     @BeforeEach
     void setup(){
-        cContainer = new Container();
-        dContainer = new Container();
+        cContainer = Container.getInstance();
+        dContainer = Container.getInstance();
     }
 
     @Test

@@ -11,12 +11,7 @@ public final class Container {
 
     public static volatile Container cInstance = null;
     //Singelton Pattern
-    public Container() {
-        // DIREKT NACH DER INSTANZIIERUNG DEN ERSTEN CONTAINER ALS FINALE INSTANZ NUTZEN
-        if(this.cInstance == null) {
-            cInstance = this;
-        }
-    }
+    private Container() {}
     // GETINSTANCE NUTZEN WENN AUF WUNDERSAME ART UND WEISE CINSTANCE WIEDER NULL IST
     public static Container getInstance() {
         if(cInstance == null) {

@@ -2,7 +2,7 @@ package org.hbrs.se1.ws21.uebung3.files;
 
 public class Client {
     public static void main(String[] args) {
-        Container container = new Container();
+        Container container = Container.getInstance();
         try {
             container.addMember(new MemberKonkret(1));
             container.addMember(new MemberKonkret(2));
