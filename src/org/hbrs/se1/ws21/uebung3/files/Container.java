@@ -9,14 +9,17 @@ import java.util.List;
 public final class Container {
     private List<Member> members = new ArrayList<Member>();
 
-    public static volatile Container cInstance = null;
+    private static volatile Container cInstance = null;
+    private static boolean sync = false; // Thread Sicher: Ja
     //Singelton Pattern
     private Container() {}
     // GETINSTANCE NUTZEN WENN AUF WUNDERSAME ART UND WEISE CINSTANCE WIEDER NULL IST
     public static Container getInstance() {
-        if(cInstance == null) {
+        if(cInstance == null & !sync) {
+            sync = true;
             cInstance = new Container();
         }
+        sync = false;
         return cInstance;
     }
 

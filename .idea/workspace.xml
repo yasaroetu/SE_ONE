@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Uebung04 pdf hinzugefuegt.">
+    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Container Konstruktor auf private gesetzt.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/files/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/files/ContainerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyMongoDBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyMongoDBTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635321939957</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- Container Konstruktor auf private gesetzt.">
+      <created>1635325079769</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635325079769</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,6 +338,7 @@
     <MESSAGE value="- Uebung02 wurde gepullt." />
     <MESSAGE value="- Uebung02 und Uebung03 gesplitted.&#10;- Uebung03 JUnits ueberarbeitet.&#10;- Alles ist nun in Ihrem vorhergesehenen Ordner." />
     <MESSAGE value="- Uebung04 pdf hinzugefuegt." />
-    <option name="LAST_COMMIT_MESSAGE" value="- Uebung04 pdf hinzugefuegt." />
+    <MESSAGE value="- Container Konstruktor auf private gesetzt." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Container Konstruktor auf private gesetzt." />
   </component>
 </project>
