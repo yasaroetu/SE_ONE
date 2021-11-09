@@ -47,11 +47,18 @@ public class CLI {
                 case "help":
                     this.Help();
                     break;
+                case "":
+                    break;
                 default:
                     throw new CLIException("Ein nicht bekannter Befehl wurde eingegeben. Fuehr mehr Informationen gebe bitte 'help' ein.");
                 }
             }
     }
+
+    /**
+     *  USERSTORY 1
+     *  Enter Methode
+     */
     private void Enter() throws CLIException {
 
         String[] data = {"ID: ","Vorname: ","Nachname: ","Expertise (1: Beginner, 2: Experte, 3: Top-Performer): "};
@@ -63,15 +70,23 @@ public class CLI {
             }
         }
         System.out.print("Abteilung (Angabe nicht noetig): ");
-        String abteilung = sc.next();
+        String abteilung = sc.nextLine();
 
         Container c = Container.getInstance();
         try {
-            c.addMember(new Mitarbeiter(Integer.parseInt(data[0]), data[1], data[2], abteilung, Integer.parseInt(data[3])));
+            Integer exp = Integer.parseInt(data[3]);
+            if(exp > 3 | exp < 1)
+                throw new CLIException("Value range is to great! Excepted: [1|2|3] Current: " + exp);
+            c.addMember(new Mitarbeiter(Integer.parseInt(data[0]), data[1], data[2], abteilung, exp));
         } catch (Exception ex) {
             throw new CLIException(ex.getMessage());
         }
     }
+
+    /**
+     *  USERSTORY 3
+     *  Store und Load Methode
+     */
     private void Store() throws CLIException {
         Container c = Container.getInstance();
         try {
@@ -100,37 +115,45 @@ public class CLI {
         } else
             throw new CLIException("Error: No Parameter found 'load [merge|force]'.");
     }
+
+    /**
+     *  USERSTORY 2
+     *  Dump Methode
+     */
     private void Dump() throws CLIException {
-        Iterator iter = Container.getInstance().getCurrentList().iterator();
-        if(iter.hasNext())
-            System.out.format("%s%32s%32s%32s\n","ID","Vorname","Nachname","Abteilung");
+        if(Container.getInstance().getCurrentList().size() > 0)
+            System.out.println(String.format("%s%32s%32s%32s","ID","Vorname","Nachname","Abteilung"));
         else
             throw new CLIException("Es konnte nichts gefunden werden.");
 
-        var arr = Container.getInstance().getCurrentList().stream().map(x -> x.getID()).reduce(-1,(x,y) -> x < 0 ? y : x < y ? x : y);
-        System.out.println(arr);
-
-        while(iter.hasNext()) {
-            System.out.println(iter.next());
-            /* currentMember = (Member)iter.next();
-            System.out.format("%s%32s%32s%32s\n",currentMember.getID(),currentMember.Vorname(),currentMember.Nachname(),currentMember.Abteilung());*/
-        }
+        Container.getInstance().getCurrentList().stream()
+                .filter(x -> x.getID() >= 0)
+                .sorted((x,y) -> Integer.compare(x.getID(),y.getID()))
+                .forEach(x -> System.out.println(String.format("%s%32s%32s%32s",x.getID(),x.Vorname(),x.Nachname(),x.Abteilung())));
     }
+
+    /**
+     *  USERSTORY 4
+     *  Search Methode
+     */
     private void Search(String[] cmd) throws CLIException {
-        int exp = -1;
-        if(cmd.length > 1)
-            exp = Integer.parseInt(cmd[1]);
-        int fExp = exp;
-        Iterator iter = Container.getInstance().getCurrentList().stream().filter(x -> x.ExpertisenLevel() == fExp).iterator();
-        if(iter.hasNext())
-            System.out.format("%s%32s%32s%32s%32s\n","ID","Vorname","Nachname","Abteilung","Expertise");
-        else
-            throw new CLIException("Es konnte nichts gefunden werden.");
-        while(iter.hasNext()) {
-            Member currentMember = (Member)iter.next();
-            System.out.format("%s%32s%32s%32s%32d\n",currentMember.getID(),currentMember.Vorname(),currentMember.Nachname(),currentMember.Abteilung(),currentMember.ExpertisenLevel());
+        try {
+            int exp = Integer.parseInt(cmd[1]);
+            if(Container.getInstance().getCurrentList().size() > 0)
+                System.out.format("%s%32s%32s%32s%32s\n","ID","Vorname","Nachname","Abteilung","Expertise");
+            else
+                throw new CLIException("Es konnte nichts gefunden werden.");
+
+            Container.getInstance().getCurrentList().stream()
+                    .filter(x -> x.ExpertisenLevel() == exp)
+                    .sorted((x,y) -> Integer.compare(x.getID(),y.getID()))
+                    .forEach(x -> System.out.println(String.format("%s%32s%32s%32s%32d\n",x.getID(),x.Vorname(),x.Nachname(),x.Abteilung(),x.ExpertisenLevel())));
+        } catch (Exception ex) {
+            throw new CLIException(ex.getMessage());
         }
     }
+
+
     private void Exit() {
         this.close = true;
         System.out.println("Console closed.");
@@ -146,7 +169,7 @@ public class CLI {
                 "   force (die geladenen Mitarbeiter-Objekte überschreiben die\n" +
                 "   Mitarbeiter-Objekte im Speicher)\n\n" +
                 "dump (eine nach den eingegeben IDs sortierte Ausgabe der MitarbeiterObjekte inklusive aller eingegeben Angaben (ohne Expertisen)).\n\n" +
-                "search [1|2|3] (Suche nach Expertisen; \n\n" +
+                "search [1|2|3] (Suche nach Expertisen) \n\n" +
                 "exit (Verlassen der Anwendung)\n\n" +
                 "help (Anzeige aller möglichen Befehle)\n\n");
     }
