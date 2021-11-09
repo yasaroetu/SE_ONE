@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Container Konstruktor auf private gesetzt.">
+    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Container updated Thread sicher in der getInstance.">
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/files/CLI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/files/CLIException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/files/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/files/ContainerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/files/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/files/Mitarbeiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/persistence/PersistenceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/persistence/PersistenceStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/persistence/PersistenceStrategyStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/files/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects.ser" beforeDir="false" afterPath="$PROJECT_DIR$/objects.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung3/files/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung3/files/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung3/files/Container.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung3/files/Container.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung3/files/ContainerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung3/files/ContainerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyMongoDBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyMongoDBTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/codesSE2021/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStreamTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,7 +74,14 @@
       <recent name="org.hbrs.se1.ws21.uebung2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client_Container">
+  <component name="RunManager" selected="Application.CLI">
+    <configuration name="CLI" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung4.files.CLI" />
+      <module name="codesSE2021" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client_Container" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.files.Client" />
       <module name="codesSE2021" />
@@ -197,6 +218,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Client_Container" />
+      <item itemvalue="Application.CLI" />
       <item itemvalue="JUnit.PersistenceStrategyMongoDBTest" />
       <item itemvalue="JUnit.ClientTest" />
       <item itemvalue="JUnit.GermanTranslatorTest" />
@@ -312,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635325079769</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="- Container updated Thread sicher in der getInstance.">
+      <created>1635328014778</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1635328014778</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -339,6 +368,7 @@
     <MESSAGE value="- Uebung02 und Uebung03 gesplitted.&#10;- Uebung03 JUnits ueberarbeitet.&#10;- Alles ist nun in Ihrem vorhergesehenen Ordner." />
     <MESSAGE value="- Uebung04 pdf hinzugefuegt." />
     <MESSAGE value="- Container Konstruktor auf private gesetzt." />
-    <option name="LAST_COMMIT_MESSAGE" value="- Container Konstruktor auf private gesetzt." />
+    <MESSAGE value="- Container updated Thread sicher in der getInstance." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Container updated Thread sicher in der getInstance." />
   </component>
 </project>
