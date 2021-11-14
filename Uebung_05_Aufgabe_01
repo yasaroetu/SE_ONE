@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-14T17:16:17.525Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="96kxnWt4vHi_ao0aj8Cf" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-14T17:24:38.337Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="FnUdjvD9fVkNEIJEQJo3" version="15.7.3" type="github">
   <diagram id="29OQ8NQKc4cCfRGXK5-h" name="Page-1">
     <mxGraphModel dx="1050" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,7 +63,7 @@
         <mxCell id="9E_ZtjAv7ycfbcv7sSrq-23" value="Login fuer Student/Unternehmer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="360" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9E_ZtjAv7ycfbcv7sSrq-61" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=1;" edge="1" parent="1" source="9E_ZtjAv7ycfbcv7sSrq-31" target="9E_ZtjAv7ycfbcv7sSrq-60">
+        <mxCell id="9E_ZtjAv7ycfbcv7sSrq-61" value="&lt;font style=&quot;font-size: 9px&quot;&gt;&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=1;" edge="1" parent="1" source="9E_ZtjAv7ycfbcv7sSrq-31" target="9E_ZtjAv7ycfbcv7sSrq-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9E_ZtjAv7ycfbcv7sSrq-69" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;strokeColor=default;strokeWidth=1;" edge="1" parent="1" source="9E_ZtjAv7ycfbcv7sSrq-31" target="9E_ZtjAv7ycfbcv7sSrq-66">
@@ -72,7 +72,7 @@
         <mxCell id="9E_ZtjAv7ycfbcv7sSrq-31" value="Profil" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="175" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9E_ZtjAv7ycfbcv7sSrq-52" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=1;" edge="1" parent="1" source="9E_ZtjAv7ycfbcv7sSrq-33" target="9E_ZtjAv7ycfbcv7sSrq-35">
+        <mxCell id="9E_ZtjAv7ycfbcv7sSrq-52" value="&lt;font style=&quot;font-size: 9px&quot;&gt;&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=1;" edge="1" parent="1" source="9E_ZtjAv7ycfbcv7sSrq-33" target="9E_ZtjAv7ycfbcv7sSrq-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9E_ZtjAv7ycfbcv7sSrq-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=1;" edge="1" parent="1" source="9E_ZtjAv7ycfbcv7sSrq-33" target="9E_ZtjAv7ycfbcv7sSrq-57">
@@ -84,7 +84,7 @@
         <mxCell id="9E_ZtjAv7ycfbcv7sSrq-35" value="Abfrage der&lt;br&gt;Fachkompetenzen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="150" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9E_ZtjAv7ycfbcv7sSrq-51" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=1;" edge="1" parent="1" source="9E_ZtjAv7ycfbcv7sSrq-47" target="9E_ZtjAv7ycfbcv7sSrq-33">
+        <mxCell id="9E_ZtjAv7ycfbcv7sSrq-51" value="&lt;font style=&quot;font-size: 9px&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=1;" edge="1" parent="1" source="9E_ZtjAv7ycfbcv7sSrq-47" target="9E_ZtjAv7ycfbcv7sSrq-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9E_ZtjAv7ycfbcv7sSrq-47" value="Profil Verwalten" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -99,7 +99,7 @@
         <mxCell id="9E_ZtjAv7ycfbcv7sSrq-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=1;" edge="1" parent="1" source="9E_ZtjAv7ycfbcv7sSrq-60" target="9E_ZtjAv7ycfbcv7sSrq-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9E_ZtjAv7ycfbcv7sSrq-63" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=1;" edge="1" parent="1" source="9E_ZtjAv7ycfbcv7sSrq-60" target="9E_ZtjAv7ycfbcv7sSrq-47">
+        <mxCell id="9E_ZtjAv7ycfbcv7sSrq-63" value="&lt;font style=&quot;font-size: 9px&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=1;" edge="1" parent="1" source="9E_ZtjAv7ycfbcv7sSrq-60" target="9E_ZtjAv7ycfbcv7sSrq-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9E_ZtjAv7ycfbcv7sSrq-60" value="Studenten Profil" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -123,8 +123,20 @@
         <mxCell id="9E_ZtjAv7ycfbcv7sSrq-67" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Condition:&lt;br&gt;{Profil gehoert einem Unternehmer}&lt;br&gt;Extenstion Point: Zugriff&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="565" y="265" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9E_ZtjAv7ycfbcv7sSrq-71" value="Stellenanzeigen aufgeben" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9E_ZtjAv7ycfbcv7sSrq-75" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;strokeColor=default;strokeWidth=1;" edge="1" parent="1" source="9E_ZtjAv7ycfbcv7sSrq-71" target="9E_ZtjAv7ycfbcv7sSrq-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9E_ZtjAv7ycfbcv7sSrq-71" value="Stellenanzeigen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9E_ZtjAv7ycfbcv7sSrq-74" value="Stellenanzeigen aufgeben" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="440" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9E_ZtjAv7ycfbcv7sSrq-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;strokeColor=default;strokeWidth=1;" edge="1" parent="1" source="9E_ZtjAv7ycfbcv7sSrq-77" target="9E_ZtjAv7ycfbcv7sSrq-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9E_ZtjAv7ycfbcv7sSrq-77" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Condition:&lt;br&gt;{Max. 10 Fachkompetenzen je Unternehmer}&lt;br&gt;Extenstion Point: Abbruch&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="445" width="185" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
