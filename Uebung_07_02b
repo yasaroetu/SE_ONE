@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T16:04:02.864Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 OPR/81.0.4196.61" etag="XgaudgULt34-D7p3h-nB" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-07T16:06:41.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 OPR/81.0.4196.61" etag="C-KRFholmqdfF-BARt1B" version="15.9.1" type="github">
   <diagram id="VXX5K5tZXgFrecd3hQVb" name="Page-1">
     <mxGraphModel dx="419" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="kraXxyXwJTH0ZFFXJNft-29" value="&amp;lt;&amp;lt;import&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="kraXxyXwJTH0ZFFXJNft-9" target="kraXxyXwJTH0ZFFXJNft-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kraXxyXwJTH0ZFFXJNft-9" value="UI-Objekt" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="kraXxyXwJTH0ZFFXJNft-9" value="UI" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="40" y="60" width="220" height="240" as="geometry" />
         </mxCell>
         <mxCell id="kraXxyXwJTH0ZFFXJNft-2" value="&lt;&lt;interface&gt;&gt;&#xa;UI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="kraXxyXwJTH0ZFFXJNft-9">
@@ -34,7 +34,7 @@
         <mxCell id="kraXxyXwJTH0ZFFXJNft-30" value="&amp;lt;&amp;lt;observe&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="kraXxyXwJTH0ZFFXJNft-10" target="kraXxyXwJTH0ZFFXJNft-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kraXxyXwJTH0ZFFXJNft-10" value="Data-Objekts" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="kraXxyXwJTH0ZFFXJNft-10" value="AL" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="320" y="310" width="410" height="330" as="geometry" />
         </mxCell>
         <mxCell id="kraXxyXwJTH0ZFFXJNft-19" value="DataManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="kraXxyXwJTH0ZFFXJNft-10">
