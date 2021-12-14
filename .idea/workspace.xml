@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TemplateTestCase v1.5 4.xlsx" afterDir="false" />
+    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Uebung08 wurde hinzugefuegt.">
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/Uebung08/Hotelsuche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/Uebung08/QueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/Uebung08/QueryResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/Uebung08/ReiseAnbieter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/Uebung08/ReiseAnbieterAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/Uebung08/Suchauftrag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/Uebung08/Suchergebnis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects.ser" beforeDir="false" afterPath="$PROJECT_DIR$/objects.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung4/files/CLI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung4/files/CLI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/files/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/files/CLI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,6 +57,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.hbrs.se1.ws21" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.hbrs.se1.ws21.uebung4.files" />
       <recent name="org.hbrs.se1.ws21.uebung3.persistence" />
@@ -64,7 +71,7 @@
       <recent name="org.hbrs.se1.ws21.uebung2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersistenceStrategyMongoDBTest">
+  <component name="RunManager" selected="Application.Hotelsuche">
     <configuration name="CLI" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung4.files.CLI" />
       <module name="codesSE2021" />
@@ -75,6 +82,19 @@
     <configuration name="Client_Container" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.files.Client" />
       <module name="codesSE2021" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hotelsuche" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.Uebung08.Hotelsuche" />
+      <module name="codesSE2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws21.Uebung08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,22 +148,6 @@
       <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung3.files" />
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.files.ContainerTest" />
       <option name="METHOD_NAME" value="addAndDeleteMember" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContainerTest.load" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codesSE2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung3.files.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung3.files" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.files.ContainerTest" />
-      <option name="METHOD_NAME" value="load" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -216,18 +220,18 @@
       <item itemvalue="JUnit.ContainerTest_3" />
       <item itemvalue="JUnit.PersistenceStrategyStreamTest" />
       <item itemvalue="JUnit.All in codesSE2021" />
-      <item itemvalue="JUnit.ContainerTest.load" />
       <item itemvalue="JUnit.PersistenceStrategyStreamTest.save" />
       <item itemvalue="JUnit.PersistenceStrategyStreamTest (1)" />
       <item itemvalue="JUnit.ContainerTest.addAndDeleteMember" />
+      <item itemvalue="Application.Hotelsuche" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hotelsuche" />
         <item itemvalue="JUnit.All in codesSE2021" />
         <item itemvalue="JUnit.ContainerTest.addAndDeleteMember" />
         <item itemvalue="JUnit.PersistenceStrategyStreamTest (1)" />
         <item itemvalue="JUnit.PersistenceStrategyStreamTest.save" />
-        <item itemvalue="JUnit.ContainerTest.load" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635328014778</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="- Uebung08 wurde hinzugefuegt.">
+      <created>1639495912701</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1639495912701</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -359,6 +370,7 @@
     <MESSAGE value="- Uebung04 pdf hinzugefuegt." />
     <MESSAGE value="- Container Konstruktor auf private gesetzt." />
     <MESSAGE value="- Container updated Thread sicher in der getInstance." />
-    <option name="LAST_COMMIT_MESSAGE" value="- Container updated Thread sicher in der getInstance." />
+    <MESSAGE value="- Uebung08 wurde hinzugefuegt." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Uebung08 wurde hinzugefuegt." />
   </component>
 </project>
