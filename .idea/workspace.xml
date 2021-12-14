@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Uebung08 wurde hinzugefuegt.">
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/Uebung08/Hotelsuche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/Uebung08/QueryObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/Uebung08/QueryResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/Uebung08/ReiseAnbieter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/Uebung08/ReiseAnbieterAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/Uebung08/Suchauftrag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/Uebung08/Suchergebnis.java" afterDir="false" />
+    <list default="true" id="298ea2c9-b124-4454-bafe-bcf4930466ad" name="Changes" comment="- Uebung08 zu Uebung8 geaender den Ordner mit Code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,11 +80,11 @@
       </method>
     </configuration>
     <configuration name="Hotelsuche" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.Uebung08.Hotelsuche" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.Uebung8.Hotelsuche" />
       <module name="codesSE2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws21.Uebung08.*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws21.Uebung8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,7 +335,28 @@
       <option name="project" value="LOCAL" />
       <updated>1639495912701</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="- Uebung08b Code hinzugefuegt">
+      <created>1639501810581</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1639501810581</updated>
+    </task>
+    <task id="LOCAL-00016" summary="- Uebung08 fertig.">
+      <created>1639501905431</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1639501905431</updated>
+    </task>
+    <task id="LOCAL-00017" summary="- Uebung08 zu Uebung8 geaender den Ordner mit Code">
+      <created>1639501966875</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1639501966875</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,6 +385,9 @@
     <MESSAGE value="- Container Konstruktor auf private gesetzt." />
     <MESSAGE value="- Container updated Thread sicher in der getInstance." />
     <MESSAGE value="- Uebung08 wurde hinzugefuegt." />
-    <option name="LAST_COMMIT_MESSAGE" value="- Uebung08 wurde hinzugefuegt." />
+    <MESSAGE value="- Uebung08b Code hinzugefuegt" />
+    <MESSAGE value="- Uebung08 fertig." />
+    <MESSAGE value="- Uebung08 zu Uebung8 geaender den Ordner mit Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Uebung08 zu Uebung8 geaender den Ordner mit Code" />
   </component>
 </project>

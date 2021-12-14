@@ -1,8 +1,8 @@
-package org.hbrs.se1.ws21.Uebung8;
+package org.hbrs.se1.ws21.uebung8;
 
-public class Suchergebnis {
+public class Suchauftrag {
     private String beschreibung;
-    public Suchergebnis(String b) {
+    public Suchauftrag(String b) {
         this.beschreibung = b;
     }
     public String getBeschreibung() { return beschreibung; }

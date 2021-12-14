@@ -1,4 +1,4 @@
-package org.hbrs.se1.ws21.Uebung8;
+package org.hbrs.se1.ws21.uebung8;
 
 public class QueryResult {
     private String name;
