@@ -1,4 +1,4 @@
-package org.hbrs.se1.ws21.Uebung08;
+package org.hbrs.se1.ws21.Uebung8;
 
 public class Hotelsuche {
     public static void main(String[] args) {
