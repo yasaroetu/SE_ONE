@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T15:01:18.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 OPR/81.0.4196.61" etag="PfDScgYkFyteAxqYZHUw" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T15:02:13.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 OPR/81.0.4196.61" etag="AlrUWdJGpzumx--1OKbl" version="16.0.0" type="github">
   <diagram id="k7lWIKqvjzYtwFUY9pzX" name="Page-1">
     <mxGraphModel dx="1376" dy="348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -100,6 +100,9 @@
         </mxCell>
         <mxCell id="IZUeb8i_s04Lapq4pkGG-35" value="+ verifiyBook (e : Book) : Status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IZUeb8i_s04Lapq4pkGG-33">
           <mxGeometry y="34" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IZUeb8i_s04Lapq4pkGG-40" value="Es wurde das Stategy Pattern angewendet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="240" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
